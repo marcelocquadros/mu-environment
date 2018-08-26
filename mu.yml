@@ -1,4 +1,8 @@
 ---
 environments:
   - name: dev
-
+service:
+  acceptance:
+    disabled: true
+  production:
+    disabled: true
